@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 2.6;
+    color: #333;
+}
+.header {
+    background: #1e90ff;
+    color: #0e0202;
+    padding: 0rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    color: #2e1212;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ca432b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+.destinations {
+    padding: 2rem 1rem;
+    background: #c7c4c4;
+    text-align: center;
+}
+
+.destinations h2 {
+    margin-bottom: 1rem;
+}
+
+.destination-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    flex: 1;
+    padding: 1rem;
+    max-width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.destination-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.destination-item h3 {
+    margin: 0.5rem 0;
+}
+.reviews {
+    padding: 2rem 1rem;
+    background: #5b95cf;
+    color: #080808;
+    text-align: center;
+}
+.reviews blockquote {
+    margin: 1rem 0;
+    font-style: italic;
+}
+.footer {
+    padding: 1rem 1rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
